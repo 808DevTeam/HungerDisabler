@@ -10,4 +10,4 @@
 #      hunger: "on"
 
 # The below config turns on or off hunger (OPTIONS: on or off)
-hunger: "on"
+hunger-disabled: "on"

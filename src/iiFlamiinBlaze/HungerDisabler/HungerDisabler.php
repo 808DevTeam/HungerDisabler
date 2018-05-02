@@ -39,7 +39,7 @@ class HungerDisabler extends PluginBase implements Listener{
     }
 
     public function onExhaust(PlayerExhaustEvent $event) : void{
-        if($this->getConfig()->get("hunger") === "on"){
+        if($this->getConfig()->get("hunger-disabled") === "on"){
             $event->setCancelled(true);
         }
     }
