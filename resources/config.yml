@@ -7,7 +7,7 @@
 
 # Hunger Disabler Configuration File:
 #   Default Config:
-#      hunger: "on"
+#      hunger: "off"
 
 # The below config turns on or off hunger (OPTIONS: on or off)
-hunger-disabled: "on"
+hunger-disabled: "off"
